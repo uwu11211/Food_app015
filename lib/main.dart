@@ -91,6 +91,7 @@ class FoodSnackPage extends State<BottomNavigationBarExample> {
     },
   ];
 
+
   int _selectedIndex = 0;
   void _onItemTapped(int index) {
     setState(() {
