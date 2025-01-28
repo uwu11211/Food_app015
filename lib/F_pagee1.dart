@@ -328,7 +328,7 @@ class _DetailPageState extends State<DetailPage> {
             const SizedBox(height: 20),
             // ปุ่มดู YouTube
             ElevatedButton(
-              onPressed: () => _launchYouTube(youtubeUrl),  
+              onPressed: () => _launchYouTube(youtubeUrl),
               child: const Text("ดูวิดีโอบน YouTube"),
             ),
           ],
