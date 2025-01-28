@@ -42,12 +42,12 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCjNNqT5hmW-dwA0D-tYno4lvthOSZVlBc',
-    appId: '1:358672810292:web:18f827ddf7d62ad520a561',
+    appId: '1:358672810292:web:0d883af6805436aa20a561',
     messagingSenderId: '358672810292',
     projectId: 'auu007-95a70',
     authDomain: 'auu007-95a70.firebaseapp.com',
     storageBucket: 'auu007-95a70.firebasestorage.app',
-    measurementId: 'G-QTKMZ20KMD',
+    measurementId: 'G-PG6YF2RYE3',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -60,29 +60,30 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyD4Sb9EF5BuPe9Beu1Bs4N0GVJAB4XrDs0',
-    appId: '1:358672810292:ios:83e01ad3cec6509920a561',
+    appId: '1:358672810292:ios:1575fc5bcd67fd5320a561',
     messagingSenderId: '358672810292',
     projectId: 'auu007-95a70',
     storageBucket: 'auu007-95a70.firebasestorage.app',
-    iosBundleId: 'com.example.mobileApp',
+    iosBundleId: 'com.example.flutterApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyD4Sb9EF5BuPe9Beu1Bs4N0GVJAB4XrDs0',
-    appId: '1:358672810292:ios:83e01ad3cec6509920a561',
+    appId: '1:358672810292:ios:1575fc5bcd67fd5320a561',
     messagingSenderId: '358672810292',
     projectId: 'auu007-95a70',
     storageBucket: 'auu007-95a70.firebasestorage.app',
-    iosBundleId: 'com.example.mobileApp',
+    iosBundleId: 'com.example.flutterApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCjNNqT5hmW-dwA0D-tYno4lvthOSZVlBc',
-    appId: '1:358672810292:web:0d883af6805436aa20a561',
+    apiKey: 'AIzaSyBv1uCyn8SjTR8sZu7WMGESCx3wBKqXRLw',
+    appId: '1:358672810292:web:3536eaf45920825320a561',
     messagingSenderId: '358672810292',
     projectId: 'auu007-95a70',
     authDomain: 'auu007-95a70.firebaseapp.com',
     storageBucket: 'auu007-95a70.firebasestorage.app',
-    measurementId: 'G-PG6YF2RYE3',
+    measurementId: 'G-2YV1YGQ3H7',
   );
+
 }
