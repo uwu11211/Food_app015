@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
   @override
-  State<MyApp> createState() => Ped o();
+  State<MyApp> createState() => Pedo();
 }
 
 class Pedo extends State<MyApp> {
