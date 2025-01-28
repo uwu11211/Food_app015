@@ -255,7 +255,7 @@ class FoodSnackPage extends State<BottomNavigationBarExample> {
 }
 
 class DetailPage extends StatefulWidget {
-  final Map<String, String> ite m;
+  final Map<String, String> item;
   final List<Map<String, String>> items;
 
   const DetailPage({super.key, required this.item, required this.items});
