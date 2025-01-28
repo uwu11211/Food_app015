@@ -5,10 +5,8 @@ class BusinessPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-              
-          ],
-        );
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[],
+    );
   }
 }

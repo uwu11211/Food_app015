@@ -37,7 +37,7 @@ class DefaultFirebaseOptions {
         throw UnsupportedError(
           'DefaultFirebaseOptions are not supported for this platform.',
         );
-    } 
+    }
   }
 
   static const FirebaseOptions web = FirebaseOptions(
@@ -85,5 +85,4 @@ class DefaultFirebaseOptions {
     storageBucket: 'auu007-95a70.firebasestorage.app',
     measurementId: 'G-PG6YF2RYE3',
   );
-
 }
