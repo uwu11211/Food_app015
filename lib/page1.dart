@@ -6,6 +6,7 @@ class Page1 extends StatefulWidget {
   final String title;
 
   @override
+  // ignore: library_private_types_in_public_api
   _Page1State createState() => _Page1State();
 }
 

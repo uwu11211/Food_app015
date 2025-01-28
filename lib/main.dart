@@ -99,7 +99,9 @@ class FoodSnackPage extends State<BottomNavigationBarExample> {
     },
   ];
 
+  // ignore: unused_field
   int _selectedIndex = 0;
+  // ignore: unused_element
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
@@ -259,6 +261,7 @@ class DetailPage extends StatefulWidget {
   const DetailPage({super.key, required this.item, required this.items});
 
   @override
+  // ignore: library_private_types_in_public_api
   _DetailPageState createState() => _DetailPageState();
 }
 
@@ -266,6 +269,7 @@ class _DetailPageState extends State<DetailPage> {
   int likeCount = 0;
   int dislikeCount = 0;
 
+  // ignore: non_constant_identifier_names
   Future<void> _launchYouTube(String Url) async {
     final Uri url = Uri.parse(Url);
     if (!await launchUrl(url)) {

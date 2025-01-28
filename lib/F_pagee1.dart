@@ -241,6 +241,7 @@ class DetailPage extends StatefulWidget {
   const DetailPage({super.key, required this.item, required this.items});
 
   @override
+  // ignore: library_private_types_in_public_api
   _DetailPageState createState() => _DetailPageState();
 }
 
@@ -250,7 +251,9 @@ class _DetailPageState extends State<DetailPage> {
 
   // ฟังก์ชันเปิดลิงก์ YouTube
   Future<void> _launchYouTube(String url) async {
+    // ignore: deprecated_member_use
     if (await canLaunch(url)) {
+      // ignore: deprecated_member_use
       await launch(url);
     } else {
       throw 'Could not launch $url';
